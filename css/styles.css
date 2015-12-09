@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 /*nav*/
 .navbar-default {
@@ -46,6 +47,26 @@ nav.navbar.navbar-default {
 	background-image: url(../img/restaurant-2.jpg);
 }
 
+.btn {
+	color: #FFFFFF;
+	background-color: #F8512F;
+	border-radius: 4px;
+	border-color: transparent;
+}
+
+.btn:hover {
+	background-color: #D34326;
+	border-color: transparent;
+}
+
+.carousel-caption {
+	bottom: 150px;
+	color: #ffffff;
+	font-size: 17px;
+	text-shadow: 0px 0px 3px rgb(0, 0, 0, 0, 71);
+	font-weight: 400;
+}
+
 .slide-three {
 	background-image: url(../img/farm-2.jpg);
 }
@@ -56,4 +77,89 @@ nav.navbar.navbar-default {
 	background-position: center;
 }
 
-/*end of carousel*/
+.slide-one-logo {
+	max-height: 300px;
+}
+
+
+/*end of carousel*/	
+
+/*our story*/
+
+#our-story, #review {
+	min-height: 600px;
+}
+
+#our-story .row {
+	margin-top: 30px;
+}
+
+#our-story h1 {
+	font-family: 'Lobster', cursive;
+	color:#F8512F;
+	font-size: 85px;
+	margin-top: 0;
+}
+
+#our-story h2 {
+	font-size: 28px;
+	margin-top: -15px;
+}
+
+#our-story p {
+	font-weight: 300px;
+	font-size: 17px;
+}
+
+h3.story-year {
+	font-weight: 700px;
+	font-size: 200px;
+	color: rgba(149, 147, 147, .2);
+	position:absolute;
+	z-index: -1;
+}
+/*end our story*/
+/*review*/
+#review {
+	background-image: url(../img/food_review.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#review .center {
+	float: none;
+	margin: 0 auto;
+	background-color: rgba(20, 20, 20, .6);
+	padding: 10px;
+	margin-top: 145px;
+	border-radius: 5px;
+}
+
+#review h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	color:#F8512F;
+	text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review p {
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 30px;
+	text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+
+/*end of review*/
+#menu {
+	background-image: url(../img/black_linen.png);
+	background-size: cover;
+	padding-bottom: 70px;
+	padding-top: 40px;
+}
+.food {
+	background-color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
